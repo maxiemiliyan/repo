@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro:wght@700&display=swap');
+body{
+    background-color: #54c3ef;
+}
+.heading{
+    justify-content: center;
+    color: #fad744;
+    text-shadow:8px;
+    margin-top:100px;
+    margin-left:570px;
+    font-family: 'Caveat Brush',cursive;
+    font-size: 26px;
+}
+
+.mainbox{
+    width:60%;
+    height: 80%;
+    margin-top:10px;
+    background-color: #2b3252;
+    justify-content: center;
+    align-items: center;
+    margin-left:200px;
+    color: #fad744;
+    padding: 20px;
+    border-radius: 3px;
+}
+.mainbox p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mainbox input{
+    cursor: pointer;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.mainbox .submit{
+    justify-content: center;
+    text-align: center;
+    padding: 2px;
+    
+}
+.mainbox .submit input{
+    background-color: #fad744;
+    border: 1px solid #fad744;
+    height: 40px;
+    width: 100px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 30px;
+    border-radius: 3px;
+    color: #2b3252;
+}
+.mainbox hr{
+    color: #fffb00;
+    background-color: #fad744;
+    
+}
+.mark{
+    background-color: white;
+    width: 100px;
+    height: 150px;
+    padding: 10px;
+    font-size:27px;
+    padding-left: 20px;
+    border-radius: 3px;
+    margin-left: 42.8em;
+    position: sticky;
+    top:20px;
+    bottom: 343px;
+    
+    
+    
+}
+#rmark{
+    margin-top: -33px;
+}

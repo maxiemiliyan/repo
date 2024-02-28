@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Caveat+Brush&family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <div class="heading"><h1>The Quiz App</h1></div>
+    <div class="mainbox">
+        <p>Q1.Which was not one of Voldemort's Horcruxes?</p>
+        <input type="radio" name="question1">Harry<br>
+        <input type="radio" name="question1">Nagini<br>
+        <input type="radio" name="question1" id="correct1">Helga's Diadem<br>
+        <input type="radio" name="question1">Tom Riddle's Diary<br>
+        <hr/>
+        <p>Q2.Which of these are not one of Hagrid's many pets?</p>
+        <input type="radio" name="question2" id="correct2">Grawp<br>
+        <input type="radio" name="question2">Fluffy<br>
+        <input type="radio" name="question2">Aragog<br>
+        <input type="radio" name="question2">Noberta<br>
+        <hr/>
+        <p>Q3.Which class did Severus Snape always want to teach?</p>
+        <input type="radio" name="question3">Potions<br>
+        <input type="radio" name="question3">Charms<br>
+        <input type="radio" name="question3" id="correct3">Defense Against Dark Arts<br>
+        <input type="radio" name="question3">Transfiguration<br>
+        <hr/>
+        <p>Q4.Which Hogwarts house did Moaning Myrtle belong in?</p>
+        <input type="radio" name="question4">Gryffindor<br>
+        <input type="radio" name="question4">Slytherin<br>
+        <input type="radio" name="question4" id="correct4">Ravenclaw<br>
+        <input type="radio" name="question4">Hufflepuff<br>
+        <hr/>
+        <p>Q5.What class did Neville end up teaching at Hogwarts?</p>
+        <input type="radio" name="question5">Astronomy<br>
+        <input type="radio" name="question5" id="correct5">Herbology<br>
+        <input type="radio" name="question5">Charms<br>
+        <input type="radio" name="question5">Muggle Studies<br>
+        <hr/>
+        <div class="submit"><input type="submit" name="submit" value="Submit" onclick="result()"></div>
+        
+    </div>
+    <div class="mark">
+        <p>score :</p><br>
+        <p id="rmark">0 / 5</p>
+    </div>
+        
+        
+    
+
+</body>
+<script src="index.js" type="text/javascript"></script>
+</html>
+
